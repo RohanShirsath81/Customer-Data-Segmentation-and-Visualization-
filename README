@@ -1,0 +1,103 @@
+Customer Data Segmentation and Visualization
+A Django-based web application for customer segmentation using clustering algorithms and visualizing the results interactively. This project helps businesses to analyze customer behavior and create targeted marketing strategies.
+
+📂 Project Structure
+nginx
+Copy
+Edit
+Customer Data Segmentation and Visualization
+│
+├── customer_segmentation_new/   # Django project settings
+├── softcom/                     # Django application folder
+├── db.sqlite3                   # Project database
+├── CC GENERAL.csv               # Dataset file
+├── manage.py                    # Django management script
+└── README.md                    # Project documentation
+🚀 Features
+Customer Segmentation using clustering techniques
+
+Data visualization of customer groups
+
+Interactive web-based dashboard
+
+User-friendly interface
+
+Scalable project structure
+
+📊 Tech Stack
+Backend: Django (Python)
+
+Database: SQLite
+
+Data Analysis: Python (pandas, scikit-learn)
+
+Visualization: Django Templates, matplotlib (if used)
+
+🛠️ Installation and Setup
+1. Clone the Repository
+bash
+Copy
+Edit
+git clone https://github.com/your-username/your-repo-name.git
+cd your-repo-name
+2. Create Virtual Environment
+bash
+Copy
+Edit
+python -m venv venv
+3. Activate Virtual Environment
+bash
+Copy
+Edit
+# Windows
+venv\Scripts\activate
+
+# macOS/Linux
+source venv/bin/activate
+4. Install Dependencies
+bash
+Copy
+Edit
+pip install django
+# Install additional packages if required (e.g., pandas, matplotlib)
+pip install pandas matplotlib scikit-learn
+5. Run Database Migrations
+bash
+Copy
+Edit
+python manage.py migrate
+6. Start the Development Server
+bash
+Copy
+Edit
+python manage.py runserver
+7. Access the Application
+Open your browser and go to:
+
+cpp
+Copy
+Edit
+http://127.0.0.1:8000/
+✅ Usage
+Navigate to the home page to upload or view customer segmentation.
+
+Visualizations display segmented customer groups.
+
+Analyze clusters for marketing insights.
+
+📂 Dataset
+File: use a csv datasest
+
+
+📌 Future Improvements
+Add user authentication
+
+Improve visualization interactivity
+
+Support larger datasets and different formats
+
+Deploy the project on cloud platforms
+
+🙋‍♂️ Author
+Rohan Shirsath
+Email: officialrohan.genai@gmail.com

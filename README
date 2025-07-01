@@ -1,5 +1,6 @@
-Customer Data Segmentation and Visualization
-A Django-based web application for customer segmentation using clustering algorithms and visualizing the results interactively. This project helps businesses to analyze customer behavior and create targeted marketing strategies.
+📊 Customer Data Segmentation and Visualization
+A Django-based web application for customer segmentation using clustering algorithms and visualizing the results interactively.
+This project helps businesses to analyze customer behavior and create targeted marketing strategies.
 
 📂 Project Structure
 nginx
@@ -13,16 +14,17 @@ Customer Data Segmentation and Visualization
 ├── CC GENERAL.csv               # Dataset file
 ├── manage.py                    # Django management script
 └── README.md                    # Project documentation
+
 🚀 Features
-Customer Segmentation using clustering techniques
+✅ Customer Segmentation using clustering techniques
 
-Data visualization of customer groups
+✅ Data visualization of customer groups
 
-Interactive web-based dashboard
+✅ Interactive web-based dashboard
 
-User-friendly interface
+✅ User-friendly interface
 
-Scalable project structure
+✅ Scalable project structure
 
 📊 Tech Stack
 Backend: Django (Python)
@@ -59,7 +61,7 @@ bash
 Copy
 Edit
 pip install django
-# Install additional packages if required (e.g., pandas, matplotlib)
+# Install additional packages if required
 pip install pandas matplotlib scikit-learn
 5. Run Database Migrations
 bash
@@ -74,7 +76,7 @@ python manage.py runserver
 7. Access the Application
 Open your browser and go to:
 
-cpp
+bash
 Copy
 Edit
 http://127.0.0.1:8000/
@@ -86,18 +88,17 @@ Visualizations display segmented customer groups.
 Analyze clusters for marketing insights.
 
 📂 Dataset
-File: use a csv datasest
-
+File: Use a CSV dataset
 
 📌 Future Improvements
-Add user authentication
+🔒 Add user authentication
 
-Improve visualization interactivity
+📈 Improve visualization interactivity
 
-Support larger datasets and different formats
+📂 Support larger datasets and different formats
 
-Deploy the project on cloud platforms
+☁️ Deploy the project on cloud platforms (Heroku, AWS, etc.)
 
 🙋‍♂️ Author
 Rohan Shirsath
-Email: officialrohan.genai@gmail.com
+📧 Email: officialrohan.genai@gmail.com

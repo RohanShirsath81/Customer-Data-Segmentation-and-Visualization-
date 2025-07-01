@@ -1,11 +1,10 @@
 📊 Customer Data Segmentation and Visualization
+
 A Django-based web application for customer segmentation using clustering algorithms and visualizing the results interactively.
 This project helps businesses to analyze customer behavior and create targeted marketing strategies.
 
+
 📂 Project Structure
-nginx
-Copy
-Edit
 Customer Data Segmentation and Visualization
 │
 ├── customer_segmentation_new/   # Django project settings
@@ -14,6 +13,7 @@ Customer Data Segmentation and Visualization
 ├── CC GENERAL.csv               # Dataset file
 ├── manage.py                    # Django management script
 └── README.md                    # Project documentation
+
 
 🚀 Features
 ✅ Customer Segmentation using clustering techniques
@@ -26,6 +26,7 @@ Customer Data Segmentation and Visualization
 
 ✅ Scalable project structure
 
+
 📊 Tech Stack
 Backend: Django (Python)
 
@@ -33,7 +34,8 @@ Database: SQLite
 
 Data Analysis: Python (pandas, scikit-learn)
 
-Visualization: Django Templates, matplotlib (if used)
+Visualization: Django Templates, matplotlib
+
 
 🛠️ Installation and Setup
 1. Clone the Repository
@@ -80,6 +82,8 @@ bash
 Copy
 Edit
 http://127.0.0.1:8000/
+
+
 ✅ Usage
 Navigate to the home page to upload or view customer segmentation.
 
@@ -87,17 +91,10 @@ Visualizations display segmented customer groups.
 
 Analyze clusters for marketing insights.
 
+
 📂 Dataset
 File: Use a CSV dataset
 
-📌 Future Improvements
-🔒 Add user authentication
-
-📈 Improve visualization interactivity
-
-📂 Support larger datasets and different formats
-
-☁️ Deploy the project on cloud platforms (Heroku, AWS, etc.)
 
 🙋‍♂️ Author
 Rohan Shirsath
